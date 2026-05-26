@@ -1,0 +1,104 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+*.env
+secrets.json
+config.local.py
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+MANIFEST
+
+# =========================
+# Scrapy
+# =========================
+.scrapy/
+scrapy_log.txt
+
+# =========================
+# Data & Output Files
+# =========================
+data/
+output/
+exports/
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.db
+*.sqlite3
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+log.txt
+
+# =========================
+# WhatsApp Session Files
+# =========================
+whatsapp_session/
+session/
+*.session
+*.session-journal
+auth_info_multi.json
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# IDE & Editor
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing & Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.coveragerc
+
+# =========================
+# Miscellaneous
+# =========================
+*.bak
+*.swp
+*.tmp
+tmp/
+temp/
